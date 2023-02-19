@@ -8,3 +8,11 @@
 
 "server.error.title" = "Something went wrong";
 "server.error.subtitle" = "We are trying to solve the problem already. \nPlease try again later";
+
+"storage.failed.save.file" = "Failed to save file";
+"storage.failed.find.saved.file" = "Failed to find saved file";
+"storage.invalid.file.url" = "Invalid file url";
+
+"network.not.valid.url" = "Invalid url";
+"network.request.failed" = "Request failed - ";
+"network.decode.failed" = "Decode failed";

@@ -9,4 +9,17 @@ import Foundation
 
 enum StorageServiceError: LocalizedError {
     case failedSaveFile, failedFindSavedFile, invalidFileURL
+    
+    var errorDescription: String? {
+        switch self {
+        case .failedSaveFile:
+            return Resources.String.errorStorageFailedSaveFile
+            
+        case .failedFindSavedFile:
+            return Resources.String.errorStorageFailedFindSavedFile
+            
+        case .invalidFileURL:
+            return Resources.String.errorStorageInvalidFileURL
+        }
+    }
 }

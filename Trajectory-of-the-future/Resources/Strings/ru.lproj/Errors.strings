@@ -8,3 +8,11 @@
 
 "server.error.title" = "Что-то пошло не так";
 "server.error.subtitle" = "Уже разбираемся.\nПопробуйте позже";
+
+"storage.failed.save.file" = "Не удалось сохранить файл";
+"storage.failed.find.saved.file" = "Не удалось найти сохраненный файл";
+"storage.invalid.file.url" = "Неправильная ссылка к хранилищу";
+
+"network.not.valid.url" = "Неправильная ссылка запроса";
+"network.request.failed" = "Ошибка запроса - ";
+"network.decode.failed" = "Ошибка декондирования";

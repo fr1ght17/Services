@@ -45,7 +45,7 @@ final class NetworkService {
     
     // MARK: - Decoding data
     
-    private func decode<T:Codable> (_ data: Data) throws -> T {
+    func decode<T:Codable> (_ data: Data) throws -> T {
         log(data)
         do {
             let object = try JSONDecoder().decode(T.self, from: data)

@@ -17,6 +17,12 @@ struct Resources {
         static let commonRefresh = NSLocalizedString("refresh", tableName: "Common", comment: "")
         static let errorServerErrorTitle = NSLocalizedString("server.error.title", tableName: "Errors", comment: "")
         static let errorServerErrorSubtitle = NSLocalizedString("server.error.subtitle", tableName: "Errors", comment: "")
+        static let errorStorageFailedSaveFile = NSLocalizedString("storage.failed.save.file", tableName: "Errors", comment: "")
+        static let errorStorageFailedFindSavedFile = NSLocalizedString("storage.failed.find.saved.file", tableName: "Errors", comment: "")
+        static let errorStorageInvalidFileURL = NSLocalizedString("storage.invalid.file.url", tableName: "Errors", comment: "")
+        static let errorNetworkNotValidURL = NSLocalizedString("network.not.valid.url", tableName: "Errors", comment: "")
+        static let errorNetworkRequestFailed = NSLocalizedString("network.request.failed", tableName: "Errors", comment: "")
+        static let errorNetworkDecodeFailed = NSLocalizedString("network.decode.failed", tableName: "Errors", comment: "")
     }
     
     // MARK: - Color

@@ -11,4 +11,17 @@ enum NetworkServiceError: LocalizedError {
     case notValidURL
     case requestFailed(Error)
     case decodeFailed
+    
+    var errorDescription: String? {
+        switch self {
+        case .notValidURL:
+            return Resources.String.errorNetworkNotValidURL
+            
+        case .decodeFailed:
+            return Resources.String.errorNetworkDecodeFailed
+            
+        case .requestFailed(let error):
+            return Resources.String.errorNetworkRequestFailed + error.localizedDescription
+        }
+    }
 }
