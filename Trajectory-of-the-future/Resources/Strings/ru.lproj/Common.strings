@@ -1,0 +1,12 @@
+/* 
+  Common.strings
+  Trajectory-of-the-future
+
+  Created by Степан Потапов on 19.02.2023.
+  
+*/
+
+
+"error" = "Ошибка";
+"ok" = "Ок";
+"refresh" = "Обновить";
